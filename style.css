@@ -1,0 +1,38 @@
+body{font-size:14pt;line-height:;font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;background-color:#28d492;width:100%;background-image:url(backgroundlogo.png);background-repeat:repeat;text-align:;margin:0px;color:#666666;direction:;}
+p{padding-right: 4px;padding-left: 4px;}
+a{color:#666666;text-decoration:none;font-weight:bold;font-size:14pt;}
+a:visited{color:#f7f7f7;text-decoration:none;font-weight:bold;}
+h1{font-family: "Lucida Sans Unicode";font-size: 18pt;color: #474747;font-weight: regular;}
+h2{ffont-family: "Lucida Sans Unicode";font-size: 14pt;color: #474747;font-weight: regular;}
+h3{font-family: "Lucida Sans Unicode";font-size: 12pt;color: #474747;font-weight: bold;}
+li{font-family: "Lucida Sans Unicode";font-size: 11pt;font-style: normal;line-height: normal;padding: 0px;/*list-style-type: square;*/margin-bottom:10px;color: #666666;}
+.itemimage{border:solid 0px #aaa;max-width:100px;width: expression(this.width > 100 ? 100: true);vertical-align:middle;}
+ .iimage{border:solid 0px #aaa;max-width:320px;width: expression(this.width > 320 ? 320: true);vertical-align:middle;}
+ol{list-style-type: decimal;}
+ul{list-style-type: square;}
+.iconmenutitle{color:#666666;font-size:14pt;}
+/*magazinemenucssaddition2*/.magazinemenucontainer{  padding: 0px;  margin: 0px;  list-style: none;  -webkit-touch-callout: none;  -webkit-user-select: none;  -khtml-user-select: none;  -moz-user-select: none;  -ms-user-select: none;  user-select: none;  -webkit-tap-highlight-color: rgba(0,0,0,0.1);}
+.magazinemenucontainer *{vertical-align:middle;}
+.magazinemenuitem{  font-family: Arial, Helvetica, sans-serif;  padding: 0px;  max-height: 86px; }
+.magazinemenulink{  display: block;  text-decoration: none;  overflow: hidden;  position: relative;  background:#ffffff;  opacity:0.9;}
+.magazinemenuimgcontainer{display: inline-block;  width: 75px; }
+ .magazinemenuitemimage{  vertical-align: middle;  max-height: 75px;  max-width: 75px;  margin: 0 8px 0 8px;  display: block;  padding: 9px 0 8px 0;}
+.magazinemenutextcontainer{display: inline-block; max-width:75%;}
+.magazinemenutext1{  margin: 10px 0 0;  font-size: 16px;  line-height: 15px;  font-weight: bold; color: #000000;  font-family: STHeitiTC-Light, Helvetica;}
+.magazinemenutext2{  margin: 0 0 10px 0;  font-size: 12px;  font-family: STHeitiTC-Light, Helvetica;  color: #696969;  line-height: 16px;  font-weight: 100;}
+.magazinemenuimgarrow{  vertical-align: middle;  padding: 10px;  margin: auto;  position: absolute;  top: 0;  bottom: 0;  right: 0;}
+/*slideshowmenuitemscssaddition*/body > .WebKitPanel{box-sizing: border-box;    -webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    padding: 10px; -webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+body > .toolbar{text-align:center;}
+.WebKitPanel.slider-submenu .WebKitList{    position: relative;    margin: 0 0 20px 0;    padding: 0;   background: #FFFFFF;    -webkit-border-radius: 10px;    -moz-border-radius: 10px;    text-align: left;    font-size: 16px;margin: 0; padding:0; list-style:none; -webkit-border-radius:0; border-width:0;}
+.WebKitPanel.slider-submenu .WebKitItem{    position: relative;    min-height: 42px;  -webkit-border-radius: 0;    -moz-border-radius: 0;    text-align: left;margin:0; padding:0; border-width:0; }
+.WebKitPanel > ul li:last-child{    border-bottom: none !important;}
+.WebKitPanel.slider-submenu{padding: 0}
+.WebKitPanel.slider-submenu *{font-family:sans-serif,Arial, Helvetica;font-weight:400}
+.WebKitPanel.slider-submenu .WebKitTitle{border-bottom: 1px solid #ccc;padding:16px 0 16px 10px; background:url(listArrow.png) center right no-repeat; display:block; text-decoration:none; overflow:hidden; text-overflow:ellipsis; color:#333; font-weight:bold; font-size:16px; margin:0;border-top: none}
+.WebKitPanel.slider-submenu > ul > li:first-child a,.WebKitPanel.slider-submenu > ul > li:last-child a{-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0}
+.WebKitPanel.slider-submenu .WebKitImage{vertical-align:middle; border:0; margin:-5px 6px -4px 0; height:24px;}
+/*buttonmenucssaddition*/#buttonmenutable{width: 90%}
+.buttonmenucontainer{    padding: 15px;    margin: 30px 0 0;    }
+  .buttonmenuitemcontainer{    display: block;    position: relative;    -webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    box-sizing: border-box;    margin-bottom: 15px;    border-top: solid 8px #444;    -webkit-box-shadow: 0px 0 12px rgba(0,0,0,.25);    -moz-box-shadow: 0px 0 12px rgba(0,0,0,.25);    box-shadow: 0px 0 12px rgba(0,0,0,.25);}
+ .buttonmenuitembackground{    display:block;    background-color: #2ab12d;    background-repeat: no-repeat;    text-overflow: ellipsis;    white-space: nowrap;    overflow: hidden;    text-align: left;    color: #f7f7f7;    font-size: 18px;    font-family: "Arial Black",sans-serif;    font-weight: 900;    padding: 20px;    -webkit-touch-callout: none;    -webkit-user-select: none;    -khtml-user-select: none;    -moz-user-select: none;    -ms-user-select: none;    user-select: none;}
+.buttonmenuitembackground:after{    content: "";    width: 24px;    height: 24px;    background: url(buttonmenupagearrow.png) no-repeat;    background-size: 24px;    margin: auto;    top: 0;    bottom: 0;    right: 15px;    position: absolute;    display: inline-block;}
